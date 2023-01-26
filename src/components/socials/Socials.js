@@ -3,7 +3,7 @@ import React from "react";
 function Socials() {
   return (
     <>
-      <div className="h-40 bg-red-500 max-w-7xl mx-auto flex flex-col justify-center items-center">
+      <div className="h-40 bg-red-500 w-full mx-auto flex flex-col justify-center items-center">
         <h2 className="text-white font-bold text-2xl text-center uppercase mt-6">
           Follow our social channels
         </h2>

@@ -10,18 +10,13 @@ function Modal({ isOpen, isClosed }) {
               Welcome to Waveo
             </h1>
             <p className="font-['Raleway'] mb-6 text-center">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-              cursus et nibh ut fermentum. Mauris libero sapien, mollis quis
-              congue in, tristique in ligula. Proin venenatis mi magna, et
-              posuere augue scelerisque eget. Aliquam elit arcu, sodales at
-              bibendum a, viverra id augue. Aliquam nec vestibulum urna. Integer
-              enim diam, accumsan vitae sagittis id, condimentum ac ante.
-              Phasellus bibendum elit justo, rutrum mattis urna sagittis eget.
-              Etiam venenatis, sapien iaculis venenatis vulputate, sapien diam
-              dignissim felis, sit amet dignissim dolor odio eget arcu. Nunc
-              lobortis diam ac odio bibendum egestas. Fusce vel felis rhoncus,
-              imperdiet magna eu, euismod erat. Maecenas porttitor et lacus id
-              venenatis.
+              Waveo allows musicians from all around the world to collaborate
+              online to create new original music. Use FL Studio, Pro Tools,
+              Logic Pro, Studio One, REAPER or any other audio software to
+              record your ideas, then upload them to Waveo. Invite your friends
+              to collaborate, or meet new friends across the world. With Waveo,
+              you can create songs with a bass player in Stockholm, a drummer in
+              Romania, and a guitar player in Kalamazoo.
             </p>
             <button
               className="px-6 py-4 text-sm text-center font-semibold leading-4 rounded-lg bg-cyan-400 text-gray-700 hover:bg-cyan-500 hover:text-gray-900 transition duration-200"

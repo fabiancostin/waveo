@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./navbar.css";
 import Modal from "../modal/Modal";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -24,13 +25,13 @@ const Navbar = () => {
             <div className="flex items-center space-x-4">
               {/* Logo */}
               <div>
-                <a href="/">
+                <Link to="/">
                   <img
                     className="w-28"
                     src="../images/website.svg"
                     alt="logo"
                   />
-                </a>
+                </Link>
               </div>
               {/* Primary Nav */}
               <div className="hidden md:flex space-x-4">
@@ -44,18 +45,18 @@ const Navbar = () => {
             </div>
             {/* Secondary Nav */}
             <div className="hidden md:flex space-x-4 mx-2">
-              <a
+              <Link
                 className="py-2 text-sm font-medium hover:text-gray-900 text-gray-700"
-                href="#"
+                to="/login"
               >
                 Log In
-              </a>
-              <a
+              </Link>
+              <Link
                 className="py-2 text-sm font-semibold bg-red-400  text-black hover:text-white transition duration-300 px-2 rounded"
-                href="#"
+                to="/sign-up"
               >
                 Sign Up
-              </a>
+              </Link>
             </div>
             {/* Mobile Nav */}
             <div className="md:hidden flex items-center">
@@ -87,18 +88,18 @@ const Navbar = () => {
             >
               How It Works
             </button>
-            <a
-              href="#"
+            <Link
+              to="/login"
               className="block py-3 px-7 text-gray-700 text-sm hover:bg-gray-200"
             >
               Log In
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              to="/sign-up"
               className="block py-3 px-7 font-semibold text-gray-700 text-sm hover:bg-gray-200"
             >
               Sign Up
-            </a>
+            </Link>
           </div>
         ) : null}
       </nav>

@@ -1,6 +1,7 @@
 import React from "react";
 import "./pricing.css";
 import { pricingPlans } from "../../data/pricing.js";
+import { Link } from "react-router-dom";
 
 function Pricing() {
   return (
@@ -65,8 +66,8 @@ function Pricing() {
                     </li>
                   ))}
                 </ul>
-                <a
-                  href="#"
+                <Link
+                  to="/sign-up"
                   className={`  mt-8 block px-6 py-4 text-sm text-center font-semibold leading-4 rounded-lg     
                   
                   ${
@@ -77,7 +78,7 @@ function Pricing() {
                   `}
                 >
                   {plan.btn}
-                </a>
+                </Link>
               </div>
             ))}
           </div>

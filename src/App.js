@@ -3,14 +3,14 @@ import "./App.css";
 
 import Homepage from "./pages/Homepage";
 import Login from "./pages/Login";
-import SignIn from "./pages/SignIn";
+import SignUp from "./pages/SignUp";
 
 function App() {
   return (
     <>
       <Homepage />
       {/* <Login /> */}
-      {/* <SignIn /> */}
+      {/* <SignUp /> */}
     </>
   );
 }

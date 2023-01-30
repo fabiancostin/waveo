@@ -26,7 +26,7 @@ const Navbar = () => {
               <div>
                 <a href="/">
                   <img
-                    className="w-28 mr-2"
+                    className="w-28"
                     src="../images/website.svg"
                     alt="logo"
                   />
